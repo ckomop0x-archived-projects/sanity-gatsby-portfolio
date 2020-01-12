@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Khand|Lilita+One|Special+Elite|Vidaloka');
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  height: 48px;
+  width: 100%;
+  color: #fff;
+  background: linear-gradient(to right, #398ccf, #9198e5);
+}
+
+.header h1 {
+  padding-left: 15px;
+  font-weight: 300;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__title {
+  /*font-family: 'Lilita One', cursive;*/
+  /*font-family: 'Special Elite', cursive;*/
+  font-family: 'Vidaloka', serif;
+  /*font-family: 'Khand', sans-serif;*/
+  /*font-family: 'Fira Sans', sans-serif;*/
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  padding: 16px;
+}
+
+.header__link {
+  /*font-family: 'Lilita One', cursive;*/
+  /*font-family: 'Special Elite', cursive;*/
+  /*font-family: 'Vidaloka', serif;*/
+  font-family: 'Khand', sans-serif;
+  /*font-family: 'Fira Sans', sans-serif;*/
+  /*font-family: 'Lilita One', cursive;*/
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 48px;
+  padding: 12px 28px;
+}
+
+.header__link:hover {
+  text-decoration: none;
+}
